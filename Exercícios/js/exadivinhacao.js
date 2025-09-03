@@ -3,7 +3,7 @@ console.log(numeroAleatorio);
 
 var numero
 
-numero=parseInt(prompt(numeroAleatorio+"Tente adivinhar o número:"))
+numero=parseInt(prompt("Tente adivinhar o número:"))
 
 while(numero != numeroAleatorio){
     if(numero < numeroAleatorio){
