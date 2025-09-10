@@ -12,6 +12,6 @@ while(numero != numeroAleatorio){
     if(numero > numeroAleatorio){
         alert("O numero digitado é maior que o correto.")
     }
-    numero=parseInt(prompt(numeroAleatorio+"Tente adivinhar o número:"))
+    numero=parseInt(prompt("Tente adivinhar o número:"))
 }
 alert("Você acertou!!!")
