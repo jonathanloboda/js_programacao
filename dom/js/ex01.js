@@ -9,7 +9,7 @@ if(v1 == "" || v2=="")
     }
     else
     {
-        r=parseFloat(v1)*parseFloat(v2)
+        r=parseFloat(v2)/parseFloat(v1)
         document.getElementById("resultado").innerHTML=`resultado${r}`
 
 
