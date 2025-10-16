@@ -13,7 +13,7 @@ function calcular()
     else if (r >= 18.5 && r < 25)
     {
         document.getElementById("situacao").innerHTML = "Situação: Peso normal";
-        document.getElementById("situacao").style.color = "green";
+        document.getElementById("situacao").style.color = "lightgreen";
     }
     else if (r >= 25 && r < 40)
     {
