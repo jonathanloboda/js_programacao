@@ -1,0 +1,125 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(120deg, #3e5e4e 60%, #6fa07a 100%);    
+    margin: 0;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.botoes {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+h1, h2 {
+    color: #f7f7f7;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px #e0e7ef;
+}
+
+input, button, select {
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #bfc9d1;
+    font-size: 1em;
+    box-shadow: 0 1px 3px #e0e7ef;
+    transition: border 0.2s;
+}
+
+input:focus, select:focus {
+    border: 1.5px solid #2c3e50;
+    outline: none;
+}
+
+input, button, select {
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    font-size: 1em;
+    box-shadow: 0 1px 3px #000000;
+    transition: border 0.2s, box-shadow 0.2s;
+    width: 220px;
+    display: block;
+}
+
+input:focus, select:focus {
+    border: 1.5px solid #05080a;
+    outline: none;
+    box-shadow: 0 0 8px #000000;
+}
+
+button, input[type="button"] {
+    background: linear-gradient(90deg, #266b43 60%, #1c4222 100%);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    transition: background 0.2s, transform 0.2s;
+    width: 150px;
+}
+
+
+button:hover, input[type="button"]:hover {
+    background: #1a2533;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#resultado, #lista {
+    height: 10px;
+    margin-top: 18px;
+    font-size: 1.15em;
+    background: #fff;
+    padding: 12px 16px;
+    border-radius: 6px;
+    color: #1a2533;
+    border-color: #000000;
+}
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#resultado2 {
+    height: 10px;
+    margin-top: 18px;
+    font-size: 1.15em;
+    background: #fff;
+    padding: 12px 16px;
+    border-radius: 6px;
+    color: #1a2533;
+    border-color: #000000;
+}
+
+#resultado3 {
+    height: 10px;
+    margin-top: 18px;
+    font-size: 1.15em;
+    background: #fff;
+    padding: 12px 16px;
+    border-radius: 6px;
+    color: #1a2533;
+    border-color: #000000;
+}
+
+#resultado4 {
+    height: 10px;
+    margin-top: 18px;
+    font-size: 1.15em;
+    background: #fff;
+    padding: 12px 16px;
+    border-radius: 6px;
+    color: #1a2533;
+    border-color: #000000;
+     border-color: oklab(88.581% -0.19837 0.18302);
+}
+
