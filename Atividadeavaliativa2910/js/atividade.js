@@ -29,7 +29,7 @@ function removerurg()
     }
     else
     {
-        alert("Não há texto para remover.")
+        alert("Não há notas para remover.")
     }
 }
 function removernurg()
@@ -41,7 +41,7 @@ function removernurg()
     }
     else
     {
-        alert("Não há texto para remover.")
+        alert("Não há notas para remover.")
     }
 }
 function removertudo()
