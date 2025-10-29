@@ -7,18 +7,18 @@
     margin-top: 20px
 }
 #urgente{
-    background-color: #f3b8b8;
     border: 2px solid #d40808;
     padding: 40px;
-    width: 400px;
+    width: 200px;
     height: auto;
-    text-align: center
+    text-align: center;
+    border-width: 7px;
 }
 #naourgente{
-     background-color: #ebf5c8;
-    border: 2px solid #d8ec80;
+    border: 2px solid #f5ff66;
     padding: 40px;
-    width: 400px;
+    width: 200px;
     height: auto;
-    text-align: center
+    text-align: center;
+    border-width: 7px;
 }
