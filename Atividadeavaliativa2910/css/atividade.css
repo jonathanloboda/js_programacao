@@ -1,13 +1,15 @@
-#caixa{
+#caixas{
     display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
+    justify-content: center; 
+    align-items: flex-start;
+    gap: 30px; 
     padding: 10px;
-    margin-left: 300px;
-    margin-top: 20px
+    margin: 20px auto; 
+    max-width: 900px; 
 }
 #urgente{
     border: 2px solid #d40808;
+    border-radius: 5px;
     padding: 40px;
     width: 200px;
     height: auto;
@@ -16,9 +18,11 @@
 }
 #naourgente{
     border: 2px solid #f5ff66;
+    border-radius: 5px;
     padding: 40px;
     width: 200px;
     height: auto;
     text-align: center;
     border-width: 7px;
 }
+
