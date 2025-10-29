@@ -1,7 +1,24 @@
-body{
-    
-}
 #caixa{
     display: flex;
     flex-wrap: wrap;
+    gap: 50px;
+    padding: 10px;
+    margin-left: 300px;
+    margin-top: 20px
+}
+#urgente{
+    background-color: #f3b8b8;
+    border: 2px solid #d40808;
+    padding: 40px;
+    width: 400px;
+    height: auto;
+    text-align: center
+}
+#naourgente{
+     background-color: #ebf5c8;
+    border: 2px solid #d8ec80;
+    padding: 40px;
+    width: 400px;
+    height: auto;
+    text-align: center
 }
