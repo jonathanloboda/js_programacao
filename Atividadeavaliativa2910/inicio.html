@@ -7,22 +7,23 @@
     <link rel="stylesheet" href="css/atividade.css">
 </head>
 <body>
-    <h1>NOTAS</h1>
+    <div class="titulo"><h1>NOTAS</h1></div>
 
+  
     <p>
-        <label for="nota">Digite sua anotação:</label> <br>
-        <input type="text" id="nota"> <br> <br>
-        <input type="button" id="btmadurgente" value="Adicionar em urgentes" onclick="urgente()"> <br> <br>
+        <div class="anotações"><label for="nota">Digite sua anotação:</label> <br>
+        <input type="text" id="nota"></div> <br> <br>
+        <div class="botoes"><input type="button" id="btmadurgente" value="Adicionar em urgentes" onclick="urgente()"> <br> <br>
         <input type="button" id="btmadnurgente" value="Adicionar em não urgentes" onclick="naourgente()"> <br> <br>
         <input type="button" id="btmremoverurg" value="Remover ultimo elemento da lista urgente" onclick="removerurg()"> <br>  <br>
         <input type="button" id="btmremovernurg" value="Remover ultimo elemento da lista não urgente" onclick="removernurg()"> <br> <br>
         <input type="button" id="btmremovertudo" value="Remover todos os elementos da lista urgente" onclick="removertudo()"> <br> <br>
-        <input type="button" id="btmremovertudon" value="Remover todos os elementos da lista não urgente" onclick="removertudon()"> <br>
+        <input type="button" id="btmremovertudon" value="Remover todos os elementos da lista não urgente" onclick="removertudon()"></div> <br>
     </p>
+   
      
     <div id="caixas">
         <h3>Urgente</h3>
-
     <div id="urgente">
         <ul id="listaurgente"></ul>
     </div>
